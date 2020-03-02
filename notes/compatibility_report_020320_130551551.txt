@@ -1,0 +1,93 @@
+Converting GML script: ${project_dir}\scripts\removeLives\removeLives.gml
+Converted description /// @description  removeLives(amount);/// @param amount
+
+Converting GML script: ${project_dir}\scripts\towerBehaviorDefault\towerBehaviorDefault.gml
+Converted description /// @description  Bullet towerBehaviorDefault(bullet type, bullet speed);/// @param bullet type
+/// @param  bullet speed
+
+Converting GML script: ${project_dir}\objects\Controller\Create_0.gml
+Converted description /// @description  Game setup
+
+Converting GML script: ${project_dir}\objects\Controller\Alarm_0.gml
+Converted description /// @description  Spawn a new enemy, or a new wave
+
+Converting GML script: ${project_dir}\objects\Controller\Mouse_53.gml
+Converted description /// @description  Create a new tower, but only if you can
+
+Converting GML script: ${project_dir}\objects\Controller\Draw_64.gml
+Converted description /// @description  Draw the HUD
+Converted string - line 10: "Wave \#: --" -> "Wave \\#: --"
+Converted string - line 12: "Wave \#: " -> "Wave \\#: "
+
+Converting GML script: ${project_dir}\objects\Controller\KeyPress_8.gml
+Converted description /// @description  Cancel the tower instead of placing it
+
+Converting GML script: ${project_dir}\objects\InvisibleWall\Create_0.gml
+Converted description /// @description  This doesn't need to do anything, just exist.
+
+Converting GML script: ${project_dir}\objects\ClickableButton\Mouse_7.gml
+Converted description /// @description  Create a new tower, but only if you can
+
+Converting GML script: ${project_dir}\objects\ClickableButton\Draw_64.gml
+Converted description /// @description  Create a new tower, but only if you can
+
+Converting GML script: ${project_dir}\objects\Tower\Create_0.gml
+Converted description /// @description  Tower setup
+
+Converting GML script: ${project_dir}\objects\Tower\Alarm_0.gml
+Converted description /// @description  You can fire again, if there's an enemy nearby
+
+Converting GML script: ${project_dir}\objects\Tower\Step_0.gml
+Converted description /// @description  Either fire at the enemy, or follow the mouse cursor
+
+Converting GML script: ${project_dir}\objects\Tower\Draw_0.gml
+Converted description /// @description  Draw the tower (and its range)/// @param and its range
+
+Converting GML script: ${project_dir}\objects\TowerOfFire\Step_0.gml
+Converted description /// @description  Either fire at the enemy, or follow the mouse cursor
+
+Converting GML script: ${project_dir}\objects\TowerFast\Create_0.gml
+Converted description /// @description  Tower setup
+
+Converting GML script: ${project_dir}\objects\TowerSlow\Create_0.gml
+Converted description /// @description  Tower setup
+
+Converting GML script: ${project_dir}\objects\Bullet\Step_0.gml
+Converted description /// @description  Homing shot?
+
+Converting GML script: ${project_dir}\objects\Bullet\Other_0.gml
+Converted description /// @description  Remove self it outside the room
+
+Converting GML script: ${project_dir}\objects\Enemy\Create_0.gml
+Converted description /// @description  Enemy setup
+
+Converting GML script: ${project_dir}\objects\Enemy\Other_8.gml
+Converted description /// @description  You really don't want to let this happen
+
+Converting GML script: ${project_dir}\objects\Enemy\Draw_0.gml
+Converted description /// @description  Draw self, and HP
+
+Converting GML script: ${project_dir}\objects\EnemyBoss\Create_0.gml
+Converted description /// @description  Enemy setup
+
+Converting GML script: ${project_dir}\objects\EnemyBoss\Other_8.gml
+Converted description /// @description  You really don't want to let this happen
+
+Converting GML script: ${project_dir}\objects\EnemyImmuneToFire\Create_0.gml
+Converted description /// @description  Enemy setup
+
+Converting GML script: ${project_dir}\objects\EnemyImmuneToFire\Step_2.gml
+Converted description /// @description  Overrides the "on fire" effect inherited from Enemy
+
+Converting GML script: ${project_dir}\objects\EnemyFast\Create_0.gml
+Converted description /// @description  Enemy setup
+
+Converting GML script: ${project_dir}\objects\EnemySlow\Create_0.gml
+Converted description /// @description  Enemy setup
+
+macOS icon ${options_dir}\mac\icons\icon512.png written out as 32-bit
+Windows NSIS Installer Script has been set to default due to changes in GameMaker Studio 2
+Game speed set to 60
+Added compatibility script 'instance/instance_create.gml'
+Added compatibility script 'object/object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'
